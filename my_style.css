@@ -1,0 +1,25 @@
+
+ li {
+    font-family: Helvetica;
+    font-size: 14px;
+  }
+  
+  .quote {
+    color: green;
+  }
+  .center{
+  text-align: center;
+  }
+  .slant{
+    font-style: italic;
+  }
+  body{
+    background-color: #eee;
+  }
+  
+  .border{
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+  }
+  

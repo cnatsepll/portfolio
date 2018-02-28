@@ -39,6 +39,13 @@
     border-style: solid;
   }
 
+  .yellow{
+    color: rgb(255, 251, 213, 0.850);
+  }
+  .blue{
+    color: rgba(170, 224, 250, 0.850);
+  }
+
   li{
     margin: 10px 0;
   }

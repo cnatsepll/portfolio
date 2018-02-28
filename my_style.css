@@ -1,25 +1,99 @@
 
- li {
-    font-family: Helvetica;
-    font-size: 14px;
-  }
-  
-  .quote {
-    color: green;
-  }
+ body { 
+  background-image: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%; 
+
+  font-family: Helvetica;
+  font-size: bold;
+  font-size: 18px;
+  color: rgb(242, 242, 242);
+/*text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);*/
+  text-shadow: 0 0 7px rgb(0, 0, 0), 0 0 7px rgb(0, 0, 0);
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+ .title{
+  font-size: 45px;
+ }
   .center{
   text-align: center;
   }
   .slant{
     font-style: italic;
   }
-  body{
-    background-color: #eee;
-  }
   
   .border{
-    border-color: black;
-    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.233);
+    border-width: 1px;
+    border-radius:  10px;
     border-style: solid;
   }
-  
+
+  li{
+    margin: 10px 0;
+  }
+
+  ul{
+    list-style: none;  }
+    
+  li::before {
+      content: "• ";
+      padding: 10px;
+      color: rgb(239, 215, 253);
+      text-shadow: 1px 1px 2px rgb(103, 12, 155);
+    }
+
+div.card{
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+
+.row{
+  display: flex;
+  flex-grow: 3;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.squeeze{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+#first {
+  background-color:rgba(255, 255, 255, 0.1);
+  width:265px;
+}
+#second {
+  background-color:rgba(0, 0, 255, 0.100);
+  width:265px;
+}
+#third {
+  background-color:rgba(0, 0, 0, 0.1);
+  width:265px;
+}
+#fourth {
+  background-color:rgba(255, 0, 0, 0.1);
+  width:265px;
+}
+#fifth {
+  background-color:rgba(9, 255, 0, 0.1);
+  width:265px;
+}
+
+
+/*
+.card :hover {
+  background-color: rgba(252, 250, 115, 0.082);
+}
+*/

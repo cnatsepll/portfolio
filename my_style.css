@@ -6,8 +6,7 @@
   background-position: 50% 50%; 
 
   background-size: cover;
-  min-height:100%;
-  min-width:100%; 
+  height: 100%;
 
   font-family: Helvetica;
   font-size: bold;
@@ -20,7 +19,7 @@
   margin-right: 15px;
 }
  .title{
-  font-size: 45px;
+  font-size: 55px;
  }
   .center{
   text-align: center;
@@ -66,19 +65,16 @@ div.card{
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
-  margin: -19px;
+  margin: -18px;
 }
 
 .squeeze{
-  /*
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 10px;
-  */
+  margin-top: -20px;
+  
 }
 
 .quote{
-  color: black;
+  color: rgb(0, 0, 0);
   text-shadow: 0 0 7px rgb(162, 0, 255), 0 0 7px rgb(255, 255, 255);
 
 }

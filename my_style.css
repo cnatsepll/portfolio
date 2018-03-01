@@ -39,15 +39,22 @@
     border-style: solid;
   }
 
-  .yellow{
+  .yellow{ 
+    color: rgb(255, 251, 213, 0.850);
+  } 
+  .yellow a:visited{
     color: rgb(255, 251, 213, 0.850);
   }
-  .blue{
+  .blue {
+    color: rgba(170, 224, 250, 0.850);
+  }
+  .blue a:visited{
     color: rgba(170, 224, 250, 0.850);
   }
 
   li{
     margin: 10px 0;
+    font-size: 16px;
   }
 
   ul{
@@ -68,6 +75,14 @@ div.card{
   padding: 15px;
 }
 
+h2{
+  font-family: "Sacramento";
+  font-stretch: wider;
+  font-style: bold;
+  font-size: 42px;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
 
 .row{
   display: flex;
@@ -99,7 +114,7 @@ div.card{
   width:265px;
 }
 #third {
-  background-color:rgba(0, 0, 0, 0.1);
+  background-color:rgba(0, 0, 0, 0.120);
   width:265px;
 }
 #fourth {
@@ -111,9 +126,3 @@ div.card{
   width:265px;
 }
 
-
-/*
-.card :hover {
-  background-color: rgba(252, 250, 115, 0.082);
-}
-*/

@@ -20,18 +20,15 @@
  .title{
   font-size: 35px;
  }
-
  .subtitle{
    font-size: 22px;
  }
-
   .center{
   text-align: center;
   }
   .slant{
     font-style: italic;
   }
-  
   .border{
     border-color: rgba(0, 0, 0, 0.233);
     border-width: 1px;
@@ -39,18 +36,39 @@
     border-style: solid;
   }
 
+
   .yellow{ 
     color: rgb(255, 251, 213, 0.850);
   } 
-  .yellow a:visited{
-    color: rgb(255, 251, 213, 0.850);
-  }
   .blue {
     color: rgba(170, 224, 250, 0.850);
   }
-  .blue a:visited{
+  .yellow a:focus{
+    color: rgba(255, 251, 213, 0.850); 
+  }
+  .yellow  a:visited{
+    color: rgba(255, 251, 213, 0.850);
+  }
+  .yellow  a:link{
+    color: rgba(255, 251, 213, 0.850);
+  }
+  .yellow a:active{
+    color: rgba(255, 251, 213, 0.850);
+  }
+  .yellow a:hover{
+    color: rgb(255, 251, 213);
+  }
+
+  .blue  a:visited{
     color: rgba(170, 224, 250, 0.850);
   }
+  .blue  a:link{
+    color: rgba(170, 224, 250, 0.850);
+  }
+  .blue a:hover{
+    color: rgb(170, 224, 250);
+  }
+
 
   li{
     margin: 10px 0;
@@ -100,8 +118,8 @@ h2{
 }
 
 .quote{
-  color: rgb(0, 0, 0);
-  text-shadow: 0 0 7px rgb(162, 0, 255), 0 0 7px rgb(255, 255, 255);
+  color: rgb(62, 217, 245);
+  text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 7px rgb(0, 0, 0);
 
 }
 

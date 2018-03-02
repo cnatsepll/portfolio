@@ -5,6 +5,7 @@
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: cover;
+  height: 100%;
 }
  
  body { 

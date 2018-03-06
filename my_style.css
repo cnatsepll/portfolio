@@ -158,6 +158,7 @@ h2{
   display: inline-block;
   color: gold;
   margin-inline-start: -40px;
+  margin-left: -40px;
 }
 
 .quote{

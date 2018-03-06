@@ -1,8 +1,6 @@
 
  html { 
   background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') no-repeat center center fixed; 
- 
-
   -webkit-background-size: center;
   -moz-background-size: center;
   -o-background-size: center;
@@ -12,7 +10,6 @@
   min-height: 100%;
   max-width: 100%;
   min-width: 15%; 
- 
   position: center;
   
  /*
@@ -140,6 +137,15 @@ h2{
   margin: -18px;
 }
 
+.row2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 30px;
+}
+
 .squeeze{
   margin-top: -20px;
 }
@@ -155,24 +161,31 @@ h2{
 
 }
 
-#first {
+#white {
   background-color:rgba(255, 255, 255, 0.1);
   width:265px;
 }
-#second {
+#blue {
   background-color:rgba(0, 0, 255, 0.100);
   width:265px;
 }
-#third {
+#black {
   background-color:rgba(0, 0, 0, 0.120);
   width:265px;
 }
-#fourth {
+#red {
   background-color:rgba(255, 0, 0, 0.1);
   width:265px;
 }
-#fifth {
+#green {
   background-color:rgba(9, 255, 0, 0.1);
   width:265px;
 }
+
+
+
+
+
+
+
 

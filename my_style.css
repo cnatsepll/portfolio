@@ -5,27 +5,15 @@
   -moz-background-size: center;
   -o-background-size: center;
   -webkit-min-height: 100%; 
-    position: center;*/
+  top: 0; 
+  left: 0; 
+  position: center;*/
   background-position: center;
   background-size: center;
   height: 100%;
   min-height: 100%;
   max-width: 100%;
   min-width: 5%; 
-
-
-
-  top: 0; 
-  left: 0; 
-  min-width: 10%;
-  min-height: 100%;
-  
- /*
-  max-width: 100%;
-  min-width: 10%; 
-  min-height: 100%;
-  position: center;
-  */
 }
  
  body { 

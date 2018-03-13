@@ -1,17 +1,18 @@
 
  html { 
   background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') no-repeat center center fixed; 
-  -webkit-background-size: center;
+  /* -webkit-background-size: center;
   -moz-background-size: center;
   -o-background-size: center;
+  -webkit-min-height: 100%; 
+    position: center;*/
+  background-position: center;
   background-size: center;
   height: 100%;
-  -webkit-min-height: 100%;
   min-height: 100%;
   max-width: 100%;
-  min-width: 15%; 
-  position: center;
-  background-position: center;
+  min-width: 5%; 
+
 
 
   top: 0; 

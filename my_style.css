@@ -1,13 +1,9 @@
 
  html { 
   background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') no-repeat center center fixed; 
-  /* -webkit-background-size: center;
-  -moz-background-size: center;
-  -o-background-size: center;
-  -webkit-min-height: 100%; 
   top: 0; 
   left: 0; 
-  position: center;*/
+  position: center;
   background-position: center;
   background-size: center;
   height: 100%;
@@ -17,15 +13,6 @@
 }
  
  body { 
-   /*
-  background-image: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%; 
-  background-size: cover;
-  height: 100%;
-*/
-
   font-family: Helvetica;
   font-size: bold;
   font-size: 18px;
@@ -85,6 +72,16 @@
   }
   .blue a:hover{
     color: rgb(170, 224, 250);
+  }
+  
+  .black a:visited{
+    color: rgba(0, 0, 0, 0.850);
+  }
+  .black  a:link{
+    color: rgba(0, 0, 0, 0.850);
+  }
+  .black a:hover{
+    color: rgb(0, 0, 0);
   }
 
 
@@ -152,7 +149,7 @@ h2{
 
 .stars{
   display: inline-block;
-  color: gold;
+  color: rgb(255, 215, 0);
   margin-inline-start: -40px;
   margin-left: -40px;
 }
@@ -187,7 +184,10 @@ h2{
 }
 
 
+.stone{
+  background-color: rgba(79, 75, 63, 0.925);
 
+}
 
 
 

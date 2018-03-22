@@ -75,15 +75,13 @@
   }
   
   .black a:visited{
-    color: rgba(0, 0, 0, 0.750);
+    color: rgba(205, 193, 193, 0.850);
   }
   .black  a:link{
-    color: rgba(0, 0, 0, 0.750);
-    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+    color: rgba(205, 193, 193, 0.850);
   }
   .black a:hover{
-    color: rgb(0, 0, 0);
-    text-shadow: 0 0 1px rgb(0, 0, 0), 0 0 1px rgb(0, 0, 0);
+    color: rgb(205, 193, 193);
   }
 
 

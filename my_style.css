@@ -33,7 +33,9 @@
   text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
   margin-left: 0px;
   margin-right: 0px;
-
+ }
+ .shadow{
+  text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
  }
  .subtitle{
    margin-top: -20px;

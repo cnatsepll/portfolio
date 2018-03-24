@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 135%; /* To compensate for mobile browser address bar space */
+  height: 111%; /* To compensate for mobile browser address bar space */
   background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') no-repeat; 
   background-size: 100% 100%;
 }

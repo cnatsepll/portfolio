@@ -84,6 +84,15 @@
     color: rgb(205, 193, 193);
   }
 
+  .red a:visited{
+    color: rgba(250, 170, 143, 0.850);
+  }
+  .red  a:link{
+    color: rgba(250, 170, 143, 0.850);
+  }
+  .red a:hover{
+    color: rgb(250, 170, 143);
+  } 
 
   li{
     margin: 10px 0;

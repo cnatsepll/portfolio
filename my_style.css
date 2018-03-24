@@ -3,10 +3,10 @@
   background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') no-repeat center center fixed; 
   top: 0; 
   left: 0; 
+  z-index: -1;
   position: center;
   background-position: center;
-  background-size: auto;
-  z-index: -1;
+  background-size: cover;
   max-height: 100%;
   min-height: 100%;
   max-width: 98%;

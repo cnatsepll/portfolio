@@ -17,7 +17,7 @@
   font-size: bold;
   font-size: 18px;
   color: rgb(242, 242, 242);
-  text-shadow: 0 0 7px rgb(0, 0, 0), 0 0 7px rgb(0, 0, 0);
+  text-shadow: 0 0 3px rgb(20, 0, 20), 0 0 3px rgb(20, 0, 20);
   margin-top: 40px;
   margin-left: 15px;
   margin-right: 15px;
@@ -25,9 +25,13 @@
  .title{
   font-size: 250%;
   padding-top: 20px;
+  text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
+
  }
  .subtitle{
    font-size: 22px;
+   text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
+
  }
   .center{
   text-align: center;
@@ -122,7 +126,7 @@
       content: "• ";
       padding: 10px;
       color: rgb(239, 215, 253);
-      text-shadow: 1px 1px 2px rgb(103, 12, 155);
+      text-shadow: 1px 1px 2px rgb(81, 11, 122);
     }
 
 div.card{
@@ -137,7 +141,7 @@ h2{
   font-family: "Sacramento";
   font-stretch: wider;
   font-style: bold;
-  font-size: 42px;
+  font-size: 43px;
   margin-top: 50px;
   margin-bottom: -20px;
   margin-left: 15px;

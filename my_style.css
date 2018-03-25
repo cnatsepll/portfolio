@@ -64,61 +64,93 @@
     color: rgba(170, 224, 250, 0.850);
   }
   .red{
-    color: rgba(255, 251, 213, 0.850);
+    color: rgba(250, 164, 143, 0.85);
   }
   .black{
     color: rgba(205, 193, 193, 0.850);
   }
   .yellow a:focus{
-    color: rgba(255, 251, 213, 0.850); 
+    color: rgba(255, 249, 195, 0.85); 
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .yellow  a:visited{
-    color: rgba(255, 251, 213, 0.850);
+    color: rgba(255, 249, 195, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .yellow  a:link{
-    color: rgba(255, 251, 213, 0.850);
+    color: rgba(255, 249, 195, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .yellow a:active{
-    color: rgba(255, 251, 213, 0.850);
+    color: rgba(255, 249, 195, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .yellow a:hover{
-    color: rgb(255, 251, 213);
+    color: rgb(255, 249, 195);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
 
   .blue  a:visited{
-    color: rgba(170, 224, 250, 0.850);
+    color: rgba(154, 218, 250, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .blue  a:link{
-    color: rgba(170, 224, 250, 0.850);
+    color: rgba(154, 218, 250, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .blue a:hover{
-    color: rgb(170, 224, 250);
+    color: rgb(154, 218, 250);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   
   .black a:visited{
-    color: rgba(205, 193, 193, 0.850);
+    color: rgba(189, 178, 178, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .black  a:link{
-    color: rgba(205, 193, 193, 0.850);
+    color: rgba(189, 178, 178, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .black a:hover{
-    color: rgb(205, 193, 193);
+    color: rgb(189, 178, 178);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
 
   .red a:visited{
-    color: rgba(250, 170, 143, 0.850);
+    color: rgba(253, 151, 117, 0.85);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .red  a:link{
-    color: rgba(250, 170, 143, 0.850);
+    color: rgba(253, 151, 117, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .red a:hover{
-    color: rgb(250, 170, 143);
+    color: rgb(253, 151, 117);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   } 
   .red a:active{
-    color: rgba(250, 170, 143, 0.850);
+    color: rgba(253, 151, 117, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
   .red a:focus{
-    color: rgba(250, 170, 143, 0.850);
+    color: rgba(253, 151, 117, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
   }
 
   .verticalLists{
@@ -156,6 +188,8 @@ div.card{
   text-align: center;
   border-radius: 5px;
   padding: 15px;
+  text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+  font-size: 1.15em;
 }
 
 h2{

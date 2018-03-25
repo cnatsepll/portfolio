@@ -10,24 +10,7 @@
   background-size: 100% 100%;
 }
 
-@media (min-width: 600px) {
-  html { 
-    background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') no-repeat center center fixed; 
-    top: 0; 
-    left: 0; 
-    z-index: -1;
-    position: center;
-    background-position: center;
-    background-size: auto;
-    max-height: 115%;
-    min-height: 100%;
-    max-width: 98%;
-    min-width: 2%; 
-  }
-  .html-mobile-background {
-      display: none;
-  }
-}
+
 
 
  
@@ -138,9 +121,20 @@
     color: rgba(250, 170, 143, 0.850);
   }
 
+  .verticalLists{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .paddingLeft{
+    padding-left: 30px;
+  }
+  .paddingRight{
+  padding-right: 30px;
+  }
   li{
     margin: 10px 0;
     font-size: 16px;
+
   }
 
   ul{
@@ -248,5 +242,26 @@ h2{
   margin-top: 35px;
 }
 
-
+@media (min-width: 600px) {
+  html { 
+    background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') no-repeat center center fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+    position: center;
+    background-position: center;
+    background-size: auto;
+    max-height: 115%;
+    min-height: 100%;
+    max-width: 98%;
+    min-width: 2%; 
+  }
+  .html-mobile-background {
+      display: none;
+  }
+  .verticalLists{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 

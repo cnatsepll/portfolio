@@ -27,7 +27,7 @@
    display: flex center;
    flex-wrap: nowrap;   
    flex-shrink: 1;
-  font-size: 4.2vw;
+  font-size: 4.25vw;
   padding-top: 5px;
   padding-left: 0px;
   padding-right: 0px;
@@ -40,7 +40,7 @@
  }
  .subtitle{
    margin-top: -20px;
-   font-size: 3.75vw;
+   font-size: 3.80vw;
    text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
 
  }
@@ -69,6 +69,9 @@
   }
   .black{
     color: rgba(205, 193, 193, 0.850);
+  }
+  .green{
+    color:rgba(155, 211, 174, 0.85);
   }
   .yellow a:focus{
     color: rgba(255, 249, 195, 0.85); 
@@ -150,6 +153,32 @@
   }
   .red a:focus{
     color: rgba(253, 151, 117, 0.850);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
+  }
+
+  .green a:visited{
+    color:rgba(155, 211, 174, 0.85);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
+  }
+  .green  a:link{
+    color:rgba(155, 211, 174, 0.85);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
+  }
+  .green a:hover{
+    color:rgb(155, 211, 174);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
+  } 
+  .green a:active{
+    color:rgba(155, 211, 174, 0.85);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+
+  }
+  .green a:focus{
+    color:rgba(155, 211, 174, 0.85);
     text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
 
   }

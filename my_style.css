@@ -35,15 +35,17 @@
   margin-left: 0px;
   margin-right: 0px;
  }
- .shadow{
-  text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
- }
+
  .subtitle{
    margin-top: -20px;
    font-size: 3.80vw;
    text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
-
  }
+
+ .shadow{
+  text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
+ }
+
   .center{
   text-align: center;
   }
@@ -269,7 +271,6 @@ h2{
   color: rgb(224, 201, 184);
   text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
   font-weight: 600;
-
 }
 
 #white {
@@ -298,12 +299,20 @@ h2{
   background-color: rgba(79, 75, 63, 0.925);
 
 }
-
+.topMargin{
+  margin-top: 40px;
+}
 .lessTopMargin{
   margin-top: -10px;
 }
 .moreTopMargin{
-  margin-top: 35px;
+  margin-top: 60px;
+}
+.moreBottomMargin{
+  margin-bottom: 60px;
+}
+.bottomMargin{
+  margin-bottom: 25px
 }
 
 @media (min-width: 600px) {
@@ -326,6 +335,24 @@ h2{
   .verticalLists{
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .title{
+    display: flex center;
+    flex-wrap: nowrap;   
+    flex-shrink: 1;
+   font-size: 40px;
+   padding-top: 5px;
+   padding-left: 0px;
+   padding-right: 0px;
+   text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
+   margin-left: 0px;
+   margin-right: 0px;
+  }
+ 
+  .subtitle{
+    margin-top: -20px;
+    font-size: 30px;
+    text-shadow: 0 0 6px rgb(28, 0, 41), 0 0 6px rgb(28, 0, 41);
   }
 }
 

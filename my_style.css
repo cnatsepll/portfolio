@@ -318,16 +318,7 @@ h2{
 @media (min-width: 600px) {
   html { 
     background: url('https://wallpapertag.com/wallpaper/full/9/c/8/354183-ombre-background-1920x1080-full-hd.jpg') center/cover no-repeat;
-    top: 0; 
-    left: 0; 
-    z-index: -1;
-    position: center;
-    background-position: center;
-    background-size: auto;
-    max-height: 115%;
-    min-height: 100%;
-    max-width: 98%;
-    min-width: 2%; 
+    min-height: 100vh;
   }
   .html-mobile-background {
       display: none;
